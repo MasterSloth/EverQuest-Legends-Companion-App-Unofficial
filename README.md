@@ -34,7 +34,7 @@ I will submit each EXE release to microsoft and update the virus total link once
 If for some reason you feel unsafe downloading the EXE version, I will release a zip folder version side-by-side with each update, this version should pass Anti-Virus checks.
 
 # 💾 CURRENT RELEASE LINKS
-# ⬇️[EXE RELEASE](https://github.com/MasterSloth/EverQuest-Legends-Companion-App-Unofficial/releases/tag/v1.00)
+# ⬇️[EXE RELEASE](https://github.com/MasterSloth/EverQuest-Legends-Companion-App-Unofficial/releases/tag/v1.00) - v1.0 Cleared through Microsoft Malware Analysis Submission, virus total up to date but still has false positives.
 # ⬇️[ZIP RELEASE](https://github.com/MasterSloth/EverQuest-Legends-Companion-App-Unofficial/releases/tag/v1.00-Zip)
 
 ## 📋 Feedback & Bug Reports
