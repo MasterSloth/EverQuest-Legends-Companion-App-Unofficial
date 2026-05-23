@@ -28,7 +28,9 @@ Expect:
 I’m a full-time student and part-time worker developing this project in my free time. This is an unpaid passion project, so development progress may vary depending on my schedule.
 
 I utilize PyInstaller to compile my program into a single EXE which makes for easy releases and simpler file management for users, but Microsoft flags these types of EXE's as malicious.
+
 I will submit each EXE release to microsoft and update the virus total link once it has been cleared.
+
 If for some reason you feel unsafe downloading the EXE version, I will release a zip folder version side-by-side with each update, this version should pass Anti-Virus checks.
 
 # 💾 CURRENT RELEASE LINKS
