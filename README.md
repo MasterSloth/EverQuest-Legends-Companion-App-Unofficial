@@ -39,9 +39,9 @@ Community feedback helps shape future development.
 
 ---
 
-# Features
-
-## 🗺️ Main Page / Map Viewer
+# Main Tab
+![Main Tab](https://i.imgur.com/OuD9M9t.png)
+## 🗺️ Map
 
 ### Current Features
 
