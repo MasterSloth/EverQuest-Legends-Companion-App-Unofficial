@@ -27,7 +27,15 @@ Expect:
 
 I’m a full-time student and part-time worker developing this project in my free time. This is an unpaid passion project, so development progress may vary depending on my schedule.
 
-## Feedback & Bug Reports
+I utilize PyInstaller to compile my program into a single EXE which makes for easy releases and simpler file management for users, but Microsoft flags these types of EXE's as malicious.
+I will submit each EXE release to microsoft and update the virus total link once it has been cleared.
+If for some reason you feel unsafe downloading the EXE version, I will release a zip folder version side-by-side with each update, this version should pass Anti-Virus checks.
+
+# 💾 CURRENT RELEASE LINKS
+# ⬇️[EXE RELEASE](https://github.com/MasterSloth/EverQuest-Legends-Companion-App-Unofficial/releases/tag/v1.00)
+# ⬇️[ZIP RELEASE](https://github.com/MasterSloth/EverQuest-Legends-Companion-App-Unofficial/releases/tag/v1.00-Zip)
+
+## 📋 Feedback & Bug Reports
 
 If you encounter bugs or have suggestions:
 
@@ -40,7 +48,7 @@ Community feedback helps shape future development.
 ---
 
 # Main Tab
-![Main Tab](https://i.imgur.com/OuD9M9t.png)
+![Main Tab](https://i.imgur.com/dShuaa0.png)
 ## 🗺️ Map
 
 ### Current Features
