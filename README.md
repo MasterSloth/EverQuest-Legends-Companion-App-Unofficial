@@ -36,7 +36,7 @@ If for some reason you feel unsafe downloading the EXE version, I will release a
 Long-term I plan to change from PyInstaller to Nuitka which should resolve the false positive problem entirely, but I'm unfamiliar with it so it won't happen until I read up on it.
 
 # 💾 CURRENT RELEASE LINKS
-# ⬇️[EXE RELEASE](https://github.com/MasterSloth/EverQuest-Legends-Companion-App-Unofficial/releases/tag/v1.01)) - Pending Microsoft Malware Analysis 5/28/26
+# ⬇️[EXE RELEASE](https://github.com/MasterSloth/EverQuest-Legends-Companion-App-Unofficial/releases/tag/v1.01) - Pending Microsoft Malware Analysis 5/28/26
 # ⬇️[ZIP RELEASE](https://github.com/MasterSloth/EverQuest-Legends-Companion-App-Unofficial/releases/tag/v1.01-Zip)
 
 ## 📋 Feedback & Bug Reports
