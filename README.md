@@ -27,17 +27,10 @@ Expect:
 
 I’m a full-time student and part-time worker developing this project in my free time. This is an unpaid passion project, so development progress may vary depending on my schedule.
 
-I utilize PyInstaller to compile my program into a single EXE which makes for easy releases and simpler file management for users, but Microsoft flags these types of EXE's as malicious.
-
-I will submit each EXE release to microsoft and update the virus total link once it has been cleared.
-
-If for some reason you feel unsafe downloading the EXE version, I will release a zip folder version side-by-side with each update, this version should pass Anti-Virus checks.
-
-Long-term I plan to change from PyInstaller to Nuitka which should resolve the false positive problem entirely, but I'm unfamiliar with it so it won't happen until I read up on it.
+The app is now compiled using [Nuitka](https://nuitka.net/) which should reduce false positive malware flagging, moving forward all releases will be in EXE form only to speed up the release process.
 
 # 💾 CURRENT RELEASE LINKS
-# ⬇️[EXE RELEASE](https://github.com/MasterSloth/EverQuest-Legends-Companion-App-Unofficial/releases/tag/v1.01) - Pending Microsoft Malware Analysis 5/28/26
-# ⬇️[ZIP RELEASE](https://github.com/MasterSloth/EverQuest-Legends-Companion-App-Unofficial/releases/tag/v1.01-Zip)
+# ⬇️[EXE RELEASE](https://github.com/MasterSloth/EverQuest-Legends-Companion-App-Unofficial/releases)
 
 ## 📋 Feedback & Bug Reports
 
@@ -52,7 +45,7 @@ Community feedback helps shape future development.
 ---
 
 # Main Tab
-![Main Tab](https://i.imgur.com/dShuaa0.png)
+![Main Tab](https://i.imgur.com/NDZxIeg.png)
 ## 🗺️ Map
 
 ### Current Features
@@ -75,6 +68,7 @@ Community feedback helps shape future development.
 * This application does **not** include map files
 * You must supply your own maps
   [*(Recommended: Brewall’s Maps)*](https://www.eqmaps.info/)
+* Eventually I am hoping the EQ:L devs will provide their own base game maps that we can utilize.
 * Location tracking is not continuous by default
 * Using the `/loc` command updates your position
 * Binding `/loc` to a movement key can simulate live position tracking
@@ -88,26 +82,40 @@ Community feedback helps shape future development.
 
 ---
 
+## Session Statistics
+![Session Statistics](https://i.imgur.com/WK13waL.png)
+
+### Current Features
+
+* Estimates EXP gain per hour in percentage format
+* Reads the log for your last level up and attempts to calculate your current EXP percentage.
+* Estimates the amount of kills needed to level based on current level percentage and the exp gained from the last encounter.
+
+### Notes
+
+* The level/exp feature is extremely temperamental because of the multi-class and single character system of EQ:L
+* When you swap classes the log doesn't show that your level may have changed so the program will not update until your next level up event.
+
+
+---
+
 ## ⚔️ DPS / Encounter Tracker *(WIP)*
+![Encounter Tracker](https://i.imgur.com/GZp4gWX.png)
 
 ### Current Features
 
 * Detects encounter start/end from the selected player log
 * Tracks:
-
   * Damage dealt
   * Encounter duration
   * Calculated DPS (Damage Per Second)
 * Manual encounter deletion
-* Optional automatic cleanup timer for completed encounters
+* Manual tracking of group members (Automation of this is difficult as its hard to tell who is in your party based on log alone)
+* Pet damage tracking
+  * Combined or separated pet/player DPS
 * Wiki lookup support for encounter NPCs
 
-### Planned Features
 
-* Pet damage tracking
-* Combined or separated pet/player DPS
-* Manual tracking for other players
-* Automated encounter deletion after set time
 
 ---
 
@@ -133,6 +141,8 @@ Most future wiki-integrated features will route through this panel for quick ref
 ---
 
 ## 📜 Quest Log Tab *(WIP)*
+![Quest Log](https://i.imgur.com/iyTQ8WW.png)
+
 
 ### Current Features
 
@@ -152,6 +162,38 @@ Most future wiki-integrated features will route through this panel for quick ref
 * Loot notifications for tracked quest items
 * Completed quest archive
 * Duplicate quest warning prompts
+* Collapsing of quests so you don't have to scroll through giant text boxes.
+
+---
+## 🗺️ Atlas Tab *(WIP)*
+![Atlas Tab](https://i.imgur.com/dDip2Vg.png)
+
+## Current Features
+
+* Full World Map for Classic EverQuest
+* Click through into individual continental maps that have a full list of all zones.
+* Click through into individual zones that load a local map for that zone.
+* Zone line connections to make traveling and finding your way around easier.
+
+## Notes
+
+* Debug features are enabled on this tab for development reasons, I would recommend not touching them as it would most likely just break, will be removed once I'm happy with the layout of the Atlas.
+
+---
+### Settings Menu
+![Settings Menu](https://i.imgur.com/UXwUpG9.png)
+
+## Current Features
+
+* Enable Active Tracking (Allows the program to actively read your log file to be able to parse)
+  * Polling interval (Set the rate at which the program will check the log for updates to encounters)
+* Enable Wiki Lookups (Type on the menu, program uses the EQ:L Wiki)
+  * Auto-Lookup mobs on consider (Will scan the log for any NPC considers and display a wiki page in the panel if it finds a match)
+  * This feature is a work in progress as the wiki is not up to date for all new NPCs.
+* Enable Pet Tracking (Enables the 'Add Pet' button to add pets you would like to track during encounters)
+  * Merge Pet Damage into player DPS (Both self-explanatory)
+* Track Group member damage (Enables the 'Add Group' button on the main encounter window to add group members to encounter tracking)
+* Flush Wiki Cache (Debug feature, use if your wiki is not displaying correctly or if you think something might be wrong)
 
 ---
 
