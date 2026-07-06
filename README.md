@@ -30,7 +30,7 @@ I’m a full-time student and part-time worker developing this project in my fre
 The app is now compiled using [Nuitka](https://nuitka.net/) which should reduce false positive malware flagging, moving forward all releases will be in EXE form only to speed up the release process.
 
 # 💾 CURRENT RELEASE LINKS
-# ⬇️[EXE RELEASE](https://github.com/MasterSloth/EverQuest-Legends-Companion-App-Unofficial/releases)
+# ⬇️[EXE RELEASE](https://github.com/MasterSloth/EverQuest-Legends-Companion-App-Unofficial/releases/tag/v1.03)
 
 ## 📋 Feedback & Bug Reports
 
