@@ -45,7 +45,7 @@ Community feedback helps shape future development.
 ---
 
 # Main Tab
-![Main Tab](https://i.imgur.com/NDZxIeg.png)
+![Main Tab](https://i.imgur.com/byGQP8u.png)
 ## 🗺️ Map
 
 ### Current Features
@@ -115,7 +115,21 @@ Community feedback helps shape future development.
   * Combined or separated pet/player DPS
 * Wiki lookup support for encounter NPCs
 
+---
 
+## ⚔️ Encounter Breakdown Tab *(WIP)*
+
+
+### Current Features
+
+* Displays additional information for each encounter.
+* Tracks:
+  * Pets / Group Members (Added manually, charms can be tracked automatically)
+  * Encounter Length
+  * Total Damage
+  * DPS
+  * Hits and Misses (+Ratio)
+  * Casts and Resists (+Ratio)
 
 ---
 
