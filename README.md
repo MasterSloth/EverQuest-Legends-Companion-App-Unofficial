@@ -2,6 +2,8 @@
 
 > A work-in-progress companion tool designed to enhance the gameplay experience with map tracking, encounter parsing, wiki integration, and future progression tools.
 
+> Status Update: 7/25/2026 - EverQuest Legends Launches in a few days, and I was hoping to push a new update out to fix a few bugs but mid-terms and work have me busy, I'm going to try and push an update by next weekend.
+
 ---
 
 # License
