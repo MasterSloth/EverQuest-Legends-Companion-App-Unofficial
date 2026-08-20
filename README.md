@@ -58,7 +58,8 @@ Community feedback helps shape future development.
 - The developers are slowly updating their own map files for the game, once those are feature complete we will be swapping over to them, in the meantime we use Brewalls.
 - Location tracking is not continuous by default — the `/loc` command updates your position, and binding it to a movement key can simulate live position tracking
 
-**Planned improvements:** additional map functionality, expanded search capabilities, quality-of-life improvements, general UI polish.
+**Planned improvements:** 
+- Additional map functionality, expanded search capabilities, quality-of-life improvements, general UI polish.
 
 ---
 
@@ -91,13 +92,15 @@ Community feedback helps shape future development.
 
 ---
 
-### ⚔️ Encounter Breakdown Tab *(WIP)*
-
+⚔️ Encounter Breakdown Tab (WIP)
 <img src="screenshots/encounter_breakdown.png" width="850" alt="Encounter Breakdown tab showing per-encounter stats">
 
 **Current features**
 - Displays additional information for each encounter
 - Tracks pets/group members (added manually; charms can be tracked automatically), encounter length, total damage, DPS, hits and misses (+ ratio), casts and resists (+ ratio)
+- Click Info next to any ended encounter for a per-source damage breakdown (you, pets, group members) with damage, DPS, and hit/miss and cast/resist ratios broken out per attack, spell, and DoT.
+
+<img src="screenshots/breakdown_info.png" width="850" alt="Encounter Breakdown Info view showing per-source damage breakdown">
 
 ---
 
